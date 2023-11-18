@@ -1,0 +1,11 @@
+[package]
+name = "counter"
+version = "0.0.2"
+
+[dependencies]
+Sui = { local = "/Users/panzhi/web3/sui/crates/sui-framework/packages/sui-framework" }
+#Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/devnet" }
+
+[addresses]
+counter = "0x0"
+sui =  "0x2"

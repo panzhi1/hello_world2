@@ -1,0 +1,27 @@
+---
+compiled_package_info:
+  package_name: counter
+  address_alias_instantiation:
+    counter: "0000000000000000000000000000000000000000000000000000000000000000"
+    std: "0000000000000000000000000000000000000000000000000000000000000001"
+    sui: "0000000000000000000000000000000000000000000000000000000000000002"
+  source_digest: 94B5D97FCE02AC72CE6183C130047AD8061698ADB537758774A3C04252EE4944
+  build_flags:
+    dev_mode: false
+    test_mode: false
+    generate_docs: false
+    generate_abis: false
+    install_dir: ~
+    force_recompilation: false
+    lock_file: "./Move.lock"
+    additional_named_addresses: {}
+    fetch_deps_only: false
+    skip_fetch_latest_git_deps: false
+    default_flavor: sui
+    default_edition: ~
+    deps_as_root: false
+    silence_warnings: false
+    warnings_are_errors: false
+dependencies:
+  - MoveStdlib
+  - Sui
